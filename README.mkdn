@@ -1,13 +1,27 @@
 ## USAGE
 
+1. install 
+
 ```
 cd redmine/plugins
 git clone git@github.com:rocodev/redmine_irc_notifications.git
 vim Gemfile
 ```
 
+2. add gem to Gemfile
+
 add shout-bot to Gemfile ( p.s. please use git version)
 
 ```
 gem "shout-bot", :git => "git://github.com/sr/shout-bot.git"
 ```
+
+3. restart
+
+```
+touch tmp/restart.txt
+```
+
+## REQUIREMENT
+
+* redmine v2.0.0+
