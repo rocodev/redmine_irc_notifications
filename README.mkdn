@@ -19,6 +19,8 @@ gem "shout-bot", :git => "git://github.com/sr/shout-bot.git"
 * restart
 
 ```
+bundle check
+bundle install
 touch tmp/restart.txt
 ```
 
